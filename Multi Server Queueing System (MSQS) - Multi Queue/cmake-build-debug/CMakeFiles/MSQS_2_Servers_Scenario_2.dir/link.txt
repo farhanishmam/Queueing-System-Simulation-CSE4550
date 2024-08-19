@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\MSQS_2_Servers_Scenario_2.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\MSQS_2_Servers_Scenario_2.dir/objects.a @CMakeFiles\MSQS_2_Servers_Scenario_2.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\MSQS_2_Servers_Scenario_2.dir/objects.a -Wl,--no-whole-archive -o MSQS_2_Servers_Scenario_2.exe -Wl,--out-implib,libMSQS_2_Servers_Scenario_2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MSQS_2_Servers_Scenario_2.dir\linklibs.rsp
