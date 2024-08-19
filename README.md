@@ -32,27 +32,53 @@ The simulation includes handling arrival and departure events for tasks in a ser
 
 1. Clone this repository.
 
-   ```git clone https://github.com/farhanishmam/Queueing-System-Simulation-CSE4550.git```
+   ```
+   git clone https://github.com/farhanishmam/Queueing-System-Simulation-CSE4550.git
+   ```
    
-2. Navigate to the project directory. `SimulationType` is a placeholder for the type of simulation system that you will run.
+3. Navigate to the project directory. `SimulationType` is a placeholder for the type of simulation system that you will run.
 
-    ```cd Queueing-System-Simulation-CSE4550/SimulationType```
+    ```
+   cd Queueing-System-Simulation-CSE4550/SimulationType
+    ```
 
 ### Building the Project
 
 To compile the project, run the following command in your terminal.
 
-```g++ main.cpp -o simulation```
+```
+g++ main.cpp -o simulation
+```
 
 ### Run
 
 After compiling, you can run the simulation.
 
-```./simulation```
+```
+./simulation
+```
 
 ### Output
 
 A `report.out` file will be generated as the output of the simulation.
   
+## Data Analysis 
 
+The data analysis and visualization has been done using Microsoft Excel. The data has been collected from the `trace.out` and the `report.out` files. Reports on the analysis have also been included in this repo.
+
+*Sample visualization of the comparison of the average number of customers in the queue in analytical and simulated systems.*
+
+![Image not Found](Assets/sampleResult.PNG)
+
+## Contributing
+
+Feel free to contribute to this project by:
+- Fork the repository
+- Create your feature branch `git checkout -b feature/AmazingFeature`
+- Commit your changes `git commit -m AmazingFeatureCommit'`
+- Push to the branch `git push origin feature/AmazingFeature`
+- Open a Pull Request
   
+## License
+
+Distributed under the MIT License. See LICENSE for more information.
