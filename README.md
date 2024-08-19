@@ -75,7 +75,7 @@ The data analysis and visualization has been done using Microsoft Excel. The dat
 Feel free to contribute to this project by:
 - Fork the repository
 - Create your feature branch `git checkout -b feature/AmazingFeature`
-- Commit your changes `git commit -m AmazingFeatureCommit'`
+- Commit your changes `git commit -m AmazingFeatureCommit`
 - Push to the branch `git push origin feature/AmazingFeature`
 - Open a Pull Request
   
