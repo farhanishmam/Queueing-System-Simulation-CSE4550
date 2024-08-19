@@ -68,7 +68,7 @@ The data analysis and visualization has been done using Microsoft Excel. The dat
 
 *Sample visualization of the comparison of the average number of customers in the queue in analytical and simulated systems.*
 
-![Image not Found](Assets/sampleResult.PNG)
+<img src="Assets/sampleResult.PNG" alt="Alt text" width="500"/>
 
 ## Contributing
 
