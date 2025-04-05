@@ -1,0 +1,8 @@
+trace file for the simulation
+format of the file
+<event> <time> <item id> <server status> <queue size>
+
+a	0.668364	1	0	0
+s	0.668364	1	1	0
+a	0.689594	2	1	0
+s	0.689594	2	2	0

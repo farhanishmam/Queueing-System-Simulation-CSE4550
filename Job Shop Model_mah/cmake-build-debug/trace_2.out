@@ -1,0 +1,4 @@
+trace file for the simulation
+format of the file
+<event> <time> <item id> <server status> <queue size>
+

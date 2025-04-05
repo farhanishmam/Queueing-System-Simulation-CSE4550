@@ -1,0 +1,31 @@
+Job Shop Model Simulation Analysis Report
+=======================================
+
+1. Queue Length Analysis:
+   - Maximum queue length at WS1: 5.50
+   - Maximum queue length at WS2: 6.50
+   - Queue length increases exponentially with traffic intensity
+
+2. Server Utilization Analysis:
+   - Maximum utilization at WS1: 0.90
+   - Maximum utilization at WS2: 0.99
+   - Utilization increases linearly with traffic intensity
+
+3. Delay Analysis:
+   - Maximum queue delay at WS1: 11.80
+   - Maximum queue delay at WS2: 13.40
+   - Maximum system delay at WS1: 16.80
+   - Maximum system delay at WS2: 20.40
+   - Delays increase significantly as traffic intensity approaches 1
+
+4. Bottleneck Analysis:
+   - Primary bottleneck: Workstation 2
+   - Bottleneck occurs due to:
+     * Fewer servers (2 vs 3)
+     * Longer service time (7.0 vs 5.0)
+
+5. Recommendations:
+   - Consider adding more servers to Workstation 2
+   - Implement load balancing between workstations
+   - Optimize service times at Workstation 2
+   - Consider implementing priority scheduling for critical jobs

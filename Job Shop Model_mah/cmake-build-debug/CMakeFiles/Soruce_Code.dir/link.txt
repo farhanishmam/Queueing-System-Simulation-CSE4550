@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Soruce_Code.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\Soruce_Code.dir/objects.a @CMakeFiles\Soruce_Code.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Soruce_Code.dir/objects.a -Wl,--no-whole-archive -o Soruce_Code.exe -Wl,--out-implib,libSoruce_Code.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Soruce_Code.dir\linklibs.rsp
