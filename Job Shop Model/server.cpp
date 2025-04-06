@@ -48,11 +48,14 @@ void Server:: initializeDeparture(){
     double t = exponential (departureMean_);
     //trace_ << "\tservice time = " << t << endl;
     d_.activate (t);
+    
+    // Forward to next server if it exists
     if((!nextServer.empty()) && (nextServer[currentJobId-1] != nullptr)){
-        nextServer[currentJobId-1] ->initializeArrival(currentJobId);
+        nextServer[currentJobId-1]->initializeArrival(currentJobId);
     }
-    if ((itemArrived_ < 1000) && (serverId_ == 1)) {
-        cout<<itemArrived_<<endl;
+    
+    // Generate at most 10 jobs in server 1
+    if ((itemArrived_ < 10) && (serverId_ == 1)) {
         initializeArrival(2);
     }
 }
