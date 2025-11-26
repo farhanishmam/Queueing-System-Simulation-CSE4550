@@ -11,6 +11,7 @@ Scheduler* Scheduler::instance_;
 
 Scheduler :: Scheduler () {
     eventList_ = 0;
+    instance_ = this;
 }
 
 double

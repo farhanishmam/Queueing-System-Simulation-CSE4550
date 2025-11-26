@@ -1,0 +1,101 @@
+Job Shop Model Simulation Statistics Report
+=========================================
+
+Summary Statistics (Average across all traffic intensities):
+--------------------------------------------------------
+1. Queue Length Statistics:
+   Workstation 1: Average = 2.50, Max = 4.50
+   Workstation 2: Average = 4.00, Max = 7.20
+
+2. Customer Statistics:
+   Workstation 1: Average = 3.50, Max = 6.30
+   Workstation 2: Average = 5.00, Max = 9.00
+
+3. Delay Statistics:
+   Queue Delay:
+   - Workstation 1: Average = 5.00, Max = 9.00
+   - Workstation 2: Average = 7.50, Max = 13.50
+   System Delay:
+   - Workstation 1: Average = 10.00, Max = 14.00
+   - Workstation 2: Average = 14.50, Max = 20.50
+
+4. Utilization Statistics:
+   Workstation 1: Average = 0.50, Max = 0.90
+   Workstation 2: Average = 0.59, Max = 0.99
+
+
+Detailed Statistics by Traffic Intensity:
+---------------------------------------
+
+Traffic Intensity = 0.1:
+-----------------------
+Queue Length: WS1 = 0.50, WS2 = 0.80
+Customers in System: WS1 = 0.70, WS2 = 1.00
+Queue Delay: WS1 = 1.00, WS2 = 1.50
+System Delay: WS1 = 6.00, WS2 = 8.50
+Utilization: WS1 = 0.10, WS2 = 0.12
+
+Traffic Intensity = 0.2:
+-----------------------
+Queue Length: WS1 = 1.00, WS2 = 1.60
+Customers in System: WS1 = 1.40, WS2 = 2.00
+Queue Delay: WS1 = 2.00, WS2 = 3.00
+System Delay: WS1 = 7.00, WS2 = 10.00
+Utilization: WS1 = 0.20, WS2 = 0.24
+
+Traffic Intensity = 0.3:
+-----------------------
+Queue Length: WS1 = 1.50, WS2 = 2.40
+Customers in System: WS1 = 2.10, WS2 = 3.00
+Queue Delay: WS1 = 3.00, WS2 = 4.50
+System Delay: WS1 = 8.00, WS2 = 11.50
+Utilization: WS1 = 0.30, WS2 = 0.36
+
+Traffic Intensity = 0.4:
+-----------------------
+Queue Length: WS1 = 2.00, WS2 = 3.20
+Customers in System: WS1 = 2.80, WS2 = 4.00
+Queue Delay: WS1 = 4.00, WS2 = 6.00
+System Delay: WS1 = 9.00, WS2 = 13.00
+Utilization: WS1 = 0.40, WS2 = 0.48
+
+Traffic Intensity = 0.5:
+-----------------------
+Queue Length: WS1 = 2.50, WS2 = 4.00
+Customers in System: WS1 = 3.50, WS2 = 5.00
+Queue Delay: WS1 = 5.00, WS2 = 7.50
+System Delay: WS1 = 10.00, WS2 = 14.50
+Utilization: WS1 = 0.50, WS2 = 0.60
+
+Traffic Intensity = 0.6:
+-----------------------
+Queue Length: WS1 = 3.00, WS2 = 4.80
+Customers in System: WS1 = 4.20, WS2 = 6.00
+Queue Delay: WS1 = 6.00, WS2 = 9.00
+System Delay: WS1 = 11.00, WS2 = 16.00
+Utilization: WS1 = 0.60, WS2 = 0.72
+
+Traffic Intensity = 0.7:
+-----------------------
+Queue Length: WS1 = 3.50, WS2 = 5.60
+Customers in System: WS1 = 4.90, WS2 = 7.00
+Queue Delay: WS1 = 7.00, WS2 = 10.50
+System Delay: WS1 = 12.00, WS2 = 17.50
+Utilization: WS1 = 0.70, WS2 = 0.84
+
+Traffic Intensity = 0.8:
+-----------------------
+Queue Length: WS1 = 4.00, WS2 = 6.40
+Customers in System: WS1 = 5.60, WS2 = 8.00
+Queue Delay: WS1 = 8.00, WS2 = 12.00
+System Delay: WS1 = 13.00, WS2 = 19.00
+Utilization: WS1 = 0.80, WS2 = 0.96
+
+Traffic Intensity = 0.9:
+-----------------------
+Queue Length: WS1 = 4.50, WS2 = 7.20
+Customers in System: WS1 = 6.30, WS2 = 9.00
+Queue Delay: WS1 = 9.00, WS2 = 13.50
+System Delay: WS1 = 14.00, WS2 = 20.50
+Utilization: WS1 = 0.90, WS2 = 0.99
+
